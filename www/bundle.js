@@ -116,23 +116,23 @@
 
 	  _reactDom2.default.render(_react2.default.createElement(_DashboardBarGraph2.default), document.getElementById('graphContainer'));
 
-	  _reactDom2.default.render(_react2.default.createElement(_ReportsPanel2.default, { image1: "/images/report1.png", image2: "/images/report2.png", image3: "/images/report3.png" }), document.getElementById('reportPanelContainer'));
+	  _reactDom2.default.render(_react2.default.createElement(_ReportsPanel2.default, { image1: "./images/report1.png", image2: "./images/report2.png", image3: "./images/report3.png" }), document.getElementById('reportPanelContainer'));
 
-	  _reactDom2.default.render(_react2.default.createElement(_ReportsPanel2.default, { image1: "/images/report1.png", image2: "/images/report2.png", image3: "/images/report3.png" }), document.getElementById('resultPanelContainer'));
+	  _reactDom2.default.render(_react2.default.createElement(_ReportsPanel2.default, { image1: "./images/report1.png", image2: "./images/report2.png", image3: "./images/report3.png" }), document.getElementById('resultPanelContainer'));
 
 	  _reactDom2.default.render(_react2.default.createElement(_MyTable2.default), document.getElementById('tableContainer'));
 
-	  _reactDom2.default.render(_react2.default.createElement(_DashboardCard2.default, { SourceOfImage: '/images/people.png', OptionName: 'FIRST REVIEWS NEEDED', NumberOf: '270' }), document.getElementById('card1'));
+	  _reactDom2.default.render(_react2.default.createElement(_DashboardCard2.default, { SourceOfImage: './images/people.png', OptionName: 'FIRST REVIEWS NEEDED', NumberOf: '270' }), document.getElementById('card1'));
 
-	  _reactDom2.default.render(_react2.default.createElement(_DashboardCard2.default, { SourceOfImage: '/images/loc.png', OptionName: 'SECOND REVIEWS NEEDED', NumberOf: '82' }), document.getElementById('card2'));
+	  _reactDom2.default.render(_react2.default.createElement(_DashboardCard2.default, { SourceOfImage: './images/loc.png', OptionName: 'SECOND REVIEWS NEEDED', NumberOf: '82' }), document.getElementById('card2'));
 
-	  _reactDom2.default.render(_react2.default.createElement(_DashboardCard2.default, { SourceOfImage: '/images/time.png', OptionName: 'PROSPECTUSES RECEIVED', NumberOf: '0' }), document.getElementById('card3'));
+	  _reactDom2.default.render(_react2.default.createElement(_DashboardCard2.default, { SourceOfImage: './images/time.png', OptionName: 'PROSPECTUSES RECEIVED', NumberOf: '0' }), document.getElementById('card3'));
 
-	  _reactDom2.default.render(_react2.default.createElement(_DashboardCard2.default, { SourceOfImage: '/images/loc.png', OptionName: 'NEW FUNDS', NumberOf: '1' }), document.getElementById('card4'));
+	  _reactDom2.default.render(_react2.default.createElement(_DashboardCard2.default, { SourceOfImage: './images/loc.png', OptionName: 'NEW FUNDS', NumberOf: '1' }), document.getElementById('card4'));
 
-	  _reactDom2.default.render(_react2.default.createElement(_DashboardCard2.default, { SourceOfImage: '/images/loc.png', OptionName: 'REPORTS NEEDED', NumberOf: '4' }), document.getElementById('card5'));
+	  _reactDom2.default.render(_react2.default.createElement(_DashboardCard2.default, { SourceOfImage: './images/loc.png', OptionName: 'REPORTS NEEDED', NumberOf: '4' }), document.getElementById('card5'));
 
-	  _reactDom2.default.render(_react2.default.createElement(_DashboardCard2.default, { SourceOfImage: '/images/loc.png', OptionName: 'ASSIGNED TASKS', NumberOf: '12' }), document.getElementById('card6'));
+	  _reactDom2.default.render(_react2.default.createElement(_DashboardCard2.default, { SourceOfImage: './images/loc.png', OptionName: 'ASSIGNED TASKS', NumberOf: '12' }), document.getElementById('card6'));
 
 	  _reactDom2.default.render(_react2.default.createElement(_ExceptionModalButton2.default), document.getElementById('modalbutt'));
 	});
