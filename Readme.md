@@ -1,8 +1,0 @@
- 
- 
-Compile
----
- 
-```
-npm run compile
-```
