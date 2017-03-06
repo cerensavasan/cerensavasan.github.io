@@ -17,7 +17,7 @@ class DashboardBarGraph extends React.Component {
 
 		  var g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-      d3.tsv("/data.tsv", function(d) {
+      d3.tsv("./data.tsv", function(d) {
       d.frequency = +d.frequency;
       return d;
       }, function(error, data) {
