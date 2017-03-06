@@ -20,7 +20,7 @@ var ExceptionDetailsModal = React.createClass({
                         <div className="row">
                           <div className="col-md-5 col-sm-5 col-xs-5" id="ruleshortname_col">
                             <h6>Rule Short Name</h6>
-                            <img src="/images/redbreach_small.png" alt="Breach Icon" id="ExceptionDetails_breachIcon"/><p>10% Investment in Spanish Securities</p>
+                            <img src="./images/redbreach_small.png" alt="Breach Icon" id="ExceptionDetails_breachIcon"/><p>10% Investment in Spanish Securities</p>
                           </div>
                           <div className="col-md-1 col-sm-1 col-xs-1">
                             <h6>Impact</h6>
