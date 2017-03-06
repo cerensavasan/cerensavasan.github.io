@@ -42,12 +42,12 @@ document.addEventListener('DOMContentLoaded', function() {
   );
 
   ReactDOM.render(
-    React.createElement(ReportsPanel,  {image1: "/images/report1.png", image2: "/images/report2.png", image3: "/images/report3.png"}),
+    React.createElement(ReportsPanel,  {image1: "./images/report1.png", image2: "./images/report2.png", image3: "./images/report3.png"}),
     document.getElementById('reportPanelContainer')
   );
 
    ReactDOM.render(
-    React.createElement(ReportsPanel,  {image1: "/images/report1.png", image2: "/images/report2.png", image3: "/images/report3.png"}),
+    React.createElement(ReportsPanel,  {image1: "./images/report1.png", image2: "./images/report2.png", image3: "./images/report3.png"}),
     document.getElementById('resultPanelContainer')
   );
 
@@ -57,32 +57,32 @@ document.addEventListener('DOMContentLoaded', function() {
   );
 
   ReactDOM.render(
-    React.createElement(DashboardCard, {SourceOfImage: '/images/people.png', OptionName: 'FIRST REVIEWS NEEDED' , NumberOf: '270'}),
+    React.createElement(DashboardCard, {SourceOfImage: './images/people.png', OptionName: 'FIRST REVIEWS NEEDED' , NumberOf: '270'}),
     document.getElementById('card1')
   );
 
   ReactDOM.render(
-    React.createElement(DashboardCard, {SourceOfImage: '/images/loc.png', OptionName: 'SECOND REVIEWS NEEDED' , NumberOf: '82'}),
+    React.createElement(DashboardCard, {SourceOfImage: './images/loc.png', OptionName: 'SECOND REVIEWS NEEDED' , NumberOf: '82'}),
     document.getElementById('card2')
   );
 
    ReactDOM.render(
-    React.createElement(DashboardCard, {SourceOfImage: '/images/time.png', OptionName: 'PROSPECTUSES RECEIVED' , NumberOf: '0'}),
+    React.createElement(DashboardCard, {SourceOfImage: './images/time.png', OptionName: 'PROSPECTUSES RECEIVED' , NumberOf: '0'}),
     document.getElementById('card3')
   );
 
   ReactDOM.render(
-    React.createElement(DashboardCard, {SourceOfImage: '/images/loc.png', OptionName: 'NEW FUNDS' , NumberOf: '1'}),
+    React.createElement(DashboardCard, {SourceOfImage: './images/loc.png', OptionName: 'NEW FUNDS' , NumberOf: '1'}),
     document.getElementById('card4')
   );
 
   ReactDOM.render(
-    React.createElement(DashboardCard, {SourceOfImage: '/images/loc.png', OptionName: 'REPORTS NEEDED' , NumberOf: '4'}),
+    React.createElement(DashboardCard, {SourceOfImage: './images/loc.png', OptionName: 'REPORTS NEEDED' , NumberOf: '4'}),
     document.getElementById('card5')
   );
 
   ReactDOM.render(
-    React.createElement(DashboardCard, {SourceOfImage: '/images/loc.png', OptionName: 'ASSIGNED TASKS' , NumberOf: '12'}),
+    React.createElement(DashboardCard, {SourceOfImage: './images/loc.png', OptionName: 'ASSIGNED TASKS' , NumberOf: '12'}),
     document.getElementById('card6')
   );
   
