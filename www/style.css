@@ -10628,3 +10628,13 @@ box-shadow: 0 0 6px rgba(0, 0, 0, .8);
   float: left;
   margin-top:5px;
 }
+
+.login-ship-img {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
