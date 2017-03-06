@@ -1,0 +1,66 @@
+<html>
+<head>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="/www/bundle.js" ></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link rel="stylesheet" href="/www/style.css">
+</head>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container-fluid">
+        	<div class="navbar-header">
+         	<a class="navbar-brand" href="#"><img src="/images/ss_logo.png"></a>
+         	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+        	<span class="sr-on ly">Toggle navigation</span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+      		</button>
+    	</div>
+
+    	<!-- Collect the nav links, forms, and other content for toggling -->
+    	<nav class="collapse navbar-collapse" id="bs-example-navbar-collapse" role="navigation">
+			<ul class="nav navbar-nav">
+      			<li id='dashboardA'></li>
+      			<li id='rulesA'></li>
+     			 <li id='reportsA'></li>
+    		</ul>
+    		<ul class="nav navbar-nav navbar-right">
+        		<li class="dropdown" style="height: 60px; padding-bottom: 20px">
+    			<a href="#" class="dropdown-toggle" data-toggle="dropdown" style="height: 60px; padding-bottom: 20px">
+    			<img src="/images/id-image.jpg" class="profile-image img-circle"> Username <b class="caret"></b></a>
+	  			</li>
+      			<li><a href="#"><span class="glyphicon-envelope"></span> Search</a></li>
+      			<li><a href="#"><span class="glyphicon-envelope"></span> Login</a></li>
+    		</ul>
+		</div>
+	</nav>
+
+
+
+  <div id='react-container'>
+  	<div id="cardContainer">
+  		<div class="row" text-center>
+   		<div class="col-sm-4 col-md-2" id="card1"></div>
+   		<div class="col-sm-4 col-md-2" id="card2"></div>
+   		<div class="col-sm-4 col-md-2" id="card3"></div>
+   		<div class="col-sm-4 col-md-2" id="card4"></div>
+   		<div class="col-sm-4 col-md-2" id="card5"></div>
+   		<div class="col-sm-4 col-md-2" id="card6"></div>
+		</div>
+	</div>
+
+	<div class="row" text-center>
+		<div class="col-md-5 col-sm-5" id="reportPanelContainer"></div>
+		<div  class="col-md-5 col-sm-5" id="resultPanelContainer"></div>
+	</div>
+
+  	<div id="tableContainer"></div>
+  	<div id="graphContainer"></div>
+  	<div id="modalbutt"></div>
+  </div>
+  <div id="mount" style="text-align: center"></div>
+</body>
+</html>
+
