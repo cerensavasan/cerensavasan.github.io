@@ -25,12 +25,16 @@
   "name": "my-project",
   "scripts": {
     "compile": "webpack",
+    "build": "node packages/react-scripts/scripts/build.js",
     "start": "node server.js",
+    "webpack": "webpack --progress --colors",
+    "dev": "webpack-dev-server --progress --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "1.0.0",
   "devDependencies": {
     "css-loader": "^0.26.1",
+    "gh-pages": "^0.12.0",
     "style-loader": "^0.13.1"
   }
 }
