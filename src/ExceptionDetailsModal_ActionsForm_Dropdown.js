@@ -12,9 +12,9 @@ class ExceptionDetailsModal_ActionsForm_Dropdown extends React.Component {
 	render(){
         return (
             <div className="selectorInActionForm">
-                <label htmlFor="{this.props.selectNum}">{this.props.label}</label>
+                <label>{this.props.label}</label>
                 <br/>
-                <select className="form-control" id="{this.props.selectNum}">
+                <select className="form-control">
                     <option>         </option> 
                     <option>{this.props.option1}</option>
                     <option>{this.props.option2}</option>
