@@ -12,6 +12,7 @@ import ExceptionModalButton from './ExceptionModalButton';
 import ExceptionDetailsModal from './ExceptionDetailsModal';
 require('bootstrap');
 
+console.log("Inside main");
  
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
